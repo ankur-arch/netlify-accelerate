@@ -1,5 +1,5 @@
 import { PrismaClient } from "../../generated/client/deno/edge.ts";
-import { withAccelerate } from "@prisma/extension-accelerate@1.0.0";
+import { withAccelerate } from "npm:@prisma/extension-accelerate@1.0.0";
 import { Hono } from "https://deno.land/x/hono/mod.ts";
 import { handle } from "https://deno.land/x/hono/adapter/netlify/mod.ts";
 import type { Env } from "https://deno.land/x/hono/adapter/netlify/mod.ts";
